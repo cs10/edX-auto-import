@@ -1,0 +1,10 @@
+# Clean Mac Files
+.DS_Store
+# Don't store built things
+*.tar.gz
+# Keep the bare imported courses
+!imports/*.tar.gz
+
+# Python
+__pycache__
+*.pyc
